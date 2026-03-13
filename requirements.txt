@@ -1,7 +1,6 @@
 streamlit
 pandas
-numpy
-scikit-learn
 plotly
-geopy
 streamlit-aggrid
+holidays
+openpyxl
