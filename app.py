@@ -31,7 +31,7 @@ h1,h2,h3{
 
 st.title("Assistente de programação - Lemar")
 
-df = pd.read_excel("data/programacao.xlsx")
+df = pd.read_excel("programacao.xlsx")
 df.columns = df.columns.str.strip()
 df["Data"] = pd.to_datetime(df["Data"])
 
